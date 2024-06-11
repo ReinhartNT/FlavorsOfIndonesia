@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  background-image: url(./assets/Background.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 2em;
+  gap: 8em;
+}
+.grid-container > img {
+  width: 250px;
+  height: 250px;
+}
+
+.items-button {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#itembtn-1 {
+  background-image: url("./assets/Jawa-Bali-NTT/Ayam\ Betutu.jpeg");
+}
+#itembtn-2 {
+  background-image: url("./assets/Jawa-Bali-NTT/Babi\ Guling.webp");
+}
+#itembtn-3 {
+  background-image: url("./assets/Jawa-Bali-NTT/Daging\ Belacang.jpeg");
+}
+#itembtn-4 {
+  background-image: url("./assets/Jawa-Bali-NTT/Daging\ Se'i\ Sapi.jpg");
+}
+#itembtn-5 {
+  background-image: url("./assets/Jawa-Bali-NTT/Gudeg.jpeg");
+}
+#itembtn-6 {
+  background-image: url("./assets/Jawa-Bali-NTT/Jagung\ Titi.jpg");
+}
+#itembtn-7 {
+  background-image: url("./assets/Jawa-Bali-NTT/Ketoprak.jpg");
+}
+#itembtn-8 {
+  background-image: url("./assets/Jawa-Bali-NTT/Kolak.jpe");
+}
+#itembtn-9 {
+  background-image: url("./assets/Jawa-Bali-NTT/Rawon.jpg");
+}
+#itembtn-10 {
+  background-image: url("./assets/Jawa-Bali-NTT/Sate\ Lilit.jpg");
+}
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: auto;
+    padding: 1em;
+    gap: 2em;
+  }
+}

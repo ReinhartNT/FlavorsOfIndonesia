@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  background-image: url(./assets/Background.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 2em;
+  gap: 8em;
+}
+.grid-container > img {
+  width: 250px;
+  height: 250px;
+}
+
+.items-button {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#itembtn-1 {
+  background-image: url("./assets/Papua-Maluku/Ikan\ Bakar\ Manokwari.webp");
+}
+#itembtn-2 {
+  background-image: url("./assets/Papua-Maluku/Ikan\ Bungkus.webp");
+}
+#itembtn-3 {
+  background-image: url("./assets/Papua-Maluku/Ikan\ Kuah\ Pala\ Banda.jpeg");
+}
+#itembtn-4 {
+  background-image: url("./assets/Papua-Maluku/Kue\ Lontar.jpeg");
+}
+#itembtn-5 {
+  background-image: url("./assets/Papua-Maluku/Kue\ Vor\ -\ Vor.webp");
+}
+#itembtn-6 {
+  background-image: url("./assets/Papua-Maluku/Nasi\ Kelapa\ Hitu.jpg");
+}
+#itembtn-7 {
+  background-image: url("./assets/Papua-Maluku/Papeda.jpeg");
+}
+#itembtn-8 {
+  background-image: url("./assets/Papua-Maluku/Sambal\ Colo\ -\ colo.jpg");
+}
+#itembtn-9 {
+  background-image: url("./assets/Papua-Maluku/Sinole.webp");
+}
+#itembtn-10 {
+  background-image: url("./assets/Papua-Maluku/Udang\ Selingkuh.jpg");
+}
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: auto;
+    padding: 1em;
+    gap: 2em;
+  }
+}

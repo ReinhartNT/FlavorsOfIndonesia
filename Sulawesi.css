@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  background-image: url(./assets/Background.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 2em;
+  gap: 8em;
+}
+.grid-container > img {
+  width: 250px;
+  height: 250px;
+}
+
+.items-button {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#itembtn-1 {
+  background-image: url("./assets/Sulawesi/Buras.jpg");
+}
+#itembtn-2 {
+  background-image: url("./assets/Sulawesi/Coto\ Makassar.jpeg");
+}
+#itembtn-3 {
+  background-image: url("./assets/Sulawesi/Es\ Pisang\ Ijo.jpeg");
+}
+#itembtn-4 {
+  background-image: url("./assets/Sulawesi/Gogoso.jpg");
+}
+#itembtn-5 {
+  background-image: url("./assets/Sulawesi/Jalangkote.jpg");
+}
+#itembtn-6 {
+  background-image: url("./assets/Sulawesi/Kapurung.jpeg");
+}
+#itembtn-7 {
+  background-image: url("./assets/Sulawesi/Mie\ Titi.webp");
+}
+#itembtn-8 {
+  background-image: url("./assets/Sulawesi/Nasu\ Palekko.jpeg");
+}
+#itembtn-9 {
+  background-image: url("./assets/Sulawesi/Pisang\ Epe.jpg");
+}
+#itembtn-10 {
+  background-image: url("./assets/Sulawesi/Sop\ Konro.jpg");
+}
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: auto;
+    padding: 1em;
+    gap: 2em;
+  }
+}

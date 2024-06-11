@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  background-image: url(./assets/Background.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 2em;
+  gap: 8em;
+}
+.grid-container > img {
+  width: 250px;
+  height: 250px;
+}
+
+.items-button {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#itembtn-1 {
+  background-image: url("./assets/Sumatra-Bangka/Ayam\ Pop.jpg");
+}
+#itembtn-2 {
+  background-image: url("./assets/Sumatra-Bangka/Bika\ Ambon.webp");
+}
+#itembtn-3 {
+  background-image: url("./assets/Sumatra-Bangka/Dendeng\ Balado.jpg");
+}
+#itembtn-4 {
+  background-image: url("./assets/Sumatra-Bangka/Dodol\ Agar.jpeg");
+}
+#itembtn-5 {
+  background-image: url("./assets/Sumatra-Bangka/Nasi\ Gemok.jpg");
+}
+#itembtn-6 {
+  background-image: url("./assets/Sumatra-Bangka/Pempek.jpg");
+}
+#itembtn-7 {
+  background-image: url("./assets/Sumatra-Bangka/Rendang.jpg");
+}
+#itembtn-8 {
+  background-image: url("./assets/Sumatra-Bangka/Sate\ Padang.jpg");
+}
+#itembtn-9 {
+  background-image: url("./assets/Sumatra-Bangka/Soto\ Belitung.jpeg");
+}
+#itembtn-10 {
+  background-image: url("./assets/Sumatra-Bangka/Tango\ -\ tango.jpg");
+}
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: auto;
+    padding: 1em;
+    gap: 2em;
+  }
+}

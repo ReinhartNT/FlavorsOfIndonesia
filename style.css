@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Title {
+  text-align: center;
+  padding: 18px;
+  font-family: "Poetsen One", sans-serif;
+  font-style: normal;
+  font-size: 25px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: black;
+  transition: 0.25s ease-in-out;
+}
+nav {
+  background-color: #987070;
+  height: 60px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Ill-Rawon {
+  transform: rotate(15deg);
+}
+.Ill-Sate {
+  transform: rotate(-15deg);
+}
+.Page {
+  padding: 5em 5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #987070;
+  border-radius: 20px;
+  margin: 2em;
+}
+.Page a {
+  text-decoration: none;
+  color: black;
+}
+.page-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+}
+@media(max-width:768px){
+  .Page{
+    flex-direction: column;
+  }
+  .Ill-Rendang, .Ill-Rawon, .Ill-Sate{
+    width: 120px;
+    height: 120px;
+  }
+  .Title{
+    padding: 1em;
+  }
+  nav{
+    height: auto;
+  }
+}
